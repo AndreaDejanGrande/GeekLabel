@@ -1,0 +1,231 @@
+@colors__font: #444444;
+
+#container
+{
+  padding: 0px 0px 0px 0px;
+  width: auto;
+}
+
+.gl__page
+{
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+
+.gl__pages__front
+{
+  background-color: #d83454;
+}
+
+.gl__front__img
+{
+  margin: calc(~'50vh - 75px') calc(~'50% - 150px') 0px calc(~'50% - 150px');
+  width: 300px;
+  height: 150px;
+}
+
+.gl__front__font
+{
+  margin: 60px 0px 0px 0px;
+  color: #eeeeee;
+  font-size: 20px;
+}
+
+.gl__front__font, .gl__quote, .gl__title
+{
+  width: 100%;
+  text-align: center;
+  float: left;
+}
+
+.gl__pages__secondary, .gl__pages__3, .gl__pages__4
+{
+  background-color: #f1f2f2;
+}
+
+.gl__picture
+{
+  margin: calc(~'50vh - 200px') calc(~'50% - 250px') 0px calc(~'50% - 250px');
+  width: 500px;
+  height: 400px;
+  @media only screen and (max-device-width: 799px)
+  {
+    @height: calc(~'100vw / 5 * 4');
+    margin: calc(~'50vh - (@height / 2)') 0px 0px 0px;
+    width: 100%;
+    height: @height;
+  }
+}
+
+.gl__quote
+{
+  color: @colors__font;
+  font-size: 26px;
+}
+
+.gl__quote--highlighted
+{
+  color: #d83454;
+}
+
+.gl__pages__5
+{
+  min-height: 100vh;
+  height: auto;
+  background-color: #ffffff;
+  @media only screen and (max-device-width: 799px)
+  {
+    padding: 40px 0px 40px 0px;
+  }
+}
+
+.gl__title
+{
+  margin: 100px 0px 0px 0px;
+  color: @colors__font;
+  font-size: 60px;
+  @media only screen and (max-device-width: 799px)
+  {
+    margin: 0px 0px 0px 0px;
+  }
+}
+
+.gl__services
+{
+  margin: 0px auto 0px auto;
+  max-width: 1000px;
+}
+
+.gl__service
+{
+  margin: calc(~'50vh - 255px') auto 0px auto;
+  min-width: 200px;
+  @media only screen and (max-device-width: 799px)
+  {
+    margin: calc(~'50vh - 255px') calc(~'50% - 95px') 0px calc(~'50% - 95px');
+    width: 100%;
+    display: table;
+  }
+}
+
+.gl__service__img
+{
+  margin: 0px calc(~'50% - 95px') 40px calc(~'50% - 95px');
+}
+
+.gl__service__font
+{
+  margin: 0px 0px 0px 0px;
+  color: @colors__font;
+  font-size: 20px;
+  @media only screen and (max-device-width: 799px)
+  {
+    margin: 0px 0px 40px 0px;
+  }
+}
+
+.gl__pages__6
+{
+  min-height: 100vh;
+  height: auto;
+}
+
+.gl__pages__6, .gl__pages__7, .gl__pages__8
+{
+  background-color: #f1f2f2;
+}
+
+.gl__clients
+{
+  margin: 0px auto 0px auto;
+  max-width: 1000px;
+}
+
+.gl__client
+{
+  margin: calc(~'50vh - 210px') auto 15vh auto;
+  min-width: 200px;
+  @media only screen and (max-device-width: 799px)
+  {
+    margin: calc(~'50vh - 210px') calc(~'50% - 100px') 0px calc(~'50% - 100px');
+    width: 100%;
+    display: table;
+  }
+}
+
+.gl__pages__7 .gl__title
+{
+  @media only screen and (max-device-width: 799px)
+  {
+    font-size: 40px;
+  }
+}
+
+.gl__map
+{
+  margin: calc(~'20vh - 160px') 0px 0px 0px;
+  width: 100%;
+  height: 60vh;
+  background-color: #d83454;
+}
+
+.gl__pages__8
+{
+  min-heigth: 100vh;
+  height: auto;
+}
+
+.gl__form
+{
+  margin: 40px calc(~'50% - 260px') 0px calc(~'50% - 260px');
+  width: 520px;
+}
+
+.gl__input, .gl__textarea
+{
+  margin: 20px 0px 0px 0px;
+  padding: 5px 10px 5px 10px;
+  border: 2px solid #999999;
+  border-radius: 2px;
+  width: 500px;
+  font-size: 26px;
+  @media only screen and (max-device-width: 799px)
+  {
+    margin: 20px 10vw 0px 10vw;
+    width: calc(~'80vw - 24px');
+  }
+}
+
+#gl__submit
+{
+  margin: 20px 0px 0px 0px;
+  padding: 5px 10px 5px 10px;
+  border: 1px solid #d83454 - #111;
+  border-radius: 2px;
+  width: 500px;
+  background-color: #d83454;
+  font-size: 26px;
+  @media only screen and (max-device-width: 799px)
+  {
+    margin: 20px 10vw 0px 10vw;
+    width: calc(~'80vw - 24px');
+  }
+}
+
+.gl__phone
+{
+  margin: 20px 0px 40px 0px;
+  width: 100%;
+  color: #444444;
+  font-size: 20px;
+  text-align: center;
+  float: left;
+}
+
+.gl__scroll
+{
+  width: 100%;
+  text-align: center;
+  float: left;
+}
