@@ -1,6 +1,6 @@
 # Drupal 7 theme forked from drupal.com/project/bootstrap for Geek Label design.
 
-> CSS precompilers: Less.js
+> CSS precompilers: Less
 > CSS methodology: BEM
 
 ### Structure
